@@ -1,0 +1,40 @@
+/* Reset default margin and padding */
+body, h1, img {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the main heading */
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Style for the image gallery container */
+.image-gallery {
+    max-width: 800px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+    justify-items: center;
+}
+
+/* Style for individual image containers */
+.image-container {
+    border: 1px solid #ccc;
+    padding: 5px;
+    box-shadow: 0 0 5px rgba(0, , 0, 0.3);
+}
+
+/* Style for images */
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Additional styling if needed */
+/* You can add more styles based on your requirements */
